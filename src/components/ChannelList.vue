@@ -1,6 +1,6 @@
 <template>
 <div class="channel-list" v-if="player.activeChannel.category !== 'DMs'">
-    <div class="channel-list-header">Void Development Incremental</div>
+    <div class="channel-list-header">Meta Studio Incremental</div>
     <div class="channel-list-inner">
         <div v-for="(category, categoryID) in player.categories" :key="categoryID">
             <div class="channel-group-header" :class="{collapsed: category.collapsed}" v-on:click="collapseTabGroup(categoryID)" :key="categoryID">
@@ -34,11 +34,11 @@
     </div>
     <div class="channel-list-footer">
         <div class="avatar">
-            <img class="pfp" src="avatars/d0ce3ad8fb2a3fb06f58982cb0034a5b.png" alt="VoidCloud">
+            <img class="pfp" src="avatars/1d9c0858378994d85440c0cd30d6fc57.png" alt="Flamemaster">
             <div class="status"></div>
         </div>
         <div class="data">
-            <p class="name">VoidCloud</p>
+            <p class="name">Flamemaster#9696</p>
             <p class="desc">{{ player.influence | numberFormatWhole }} <span class="influence">Influence</span></p>
         </div>
         <button>

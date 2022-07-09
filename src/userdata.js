@@ -3,114 +3,86 @@ export const heros = {
         profileImage: "avatars/4033eea2a3b4cb76aa7b2cb44fc854bd.png",
         username: "TheMKeyHolder",
         role: 'contributor',
-        status: "Online",
-        playing: "OM:R"
-    },
-    "667109969438441486": {
-        profileImage: "avatars/d0ce3ad8fb2a3fb06f58982cb0034a5b.png",
-        username: "VoidCloud",
-        role: 'developer',
         status: "DND",
-        playing: "Void Development Incremental"
+        customStatus: "thonkeres"
     },
     "708748287909298318": {
-        profileImage: "avatars/eb0ab23ac4f5594022c8c21cce460174.png",
-        username: "Flame",
-        role: 'staff-admin',
-        status: "Online",
-        customStatus: ":yellow_small_man_moving_quickly:"
-    },
-    "543817742487388179": {
-        profileImage: "avatars/a_92318f24a5d7f28e9bd89f02fb2bfdba.gif",
-        username: "avocado",
-        role: 'contributor',
-        status: "Online",
-        customStatus: "Testing long names"
-    },
-    "366022305668923402": {
-        profileImage: "avatars/2d139cf3e0b984d49fbc24704c3142f9.png",
-        username: "Kuaka",
-        role: 'kuaka-salesman',
-        status: "Offline",
-        customStatus: "Swag Coin"
-    },
-    "596115906153807882": {
-        profileImage: "avatars/65781bcb0c4eff2f5b2bb545aa5d59fb.png",
-        username: "Jacorb",
-        role: 'staff-admin',
-        status: 'Idle',
-        customStatus: 'Snoopers gonna snoop'
-    },
-    "131211055849275392": {
-        profileImage: "avatars/f9abf31d943912a5c9899fe8f875c9a0.png",
-        username: "thepaperpilot",
-        role: 'staff-helper',
-        status: 'Online',
-        playing: 'Sublime Text'
-    },
-    "296003621009620992": {
-        profileImage: "avatars/db13ecbc27a88df332af9db33d437d6c.png",
-        username: "Semenar",
-        role: 'contributor',
-        status: 'Online',
-        customStatus: ''
-    },
-    "607942184167145506": {
-        profileImage: "avatars/a61a4b8fb66bcb4b991666c79a60dd95.png",
-        username: "unpingabot",
-        role: 'staff-admin',
-        status: 'Online',
-        customStatus:''
-    },
-    "330360353185857567": {
-        profileImage: "avatars/a97604bafd23e442bd8824b7592b92c6.png",
-        username: "epicness1582",
-        role: 'staff-helper',
-        status: 'Online',
-        customStatus: "I'm a sneaky snake"
-    },
-    "752728129126006905": {
-        profileImage: "avatars/0b369646bb30492f3644e1a12194aa65.png",
-        username: "dratini123",
-        role: "contributor",
-        status: "Online",
-        customStatus: ''
-    },
-    "422117994915954699": {
-        profileImage: "avatars/bcf24f8f01923a3190fbf3c0ed6003ca.png",
-        username: "Waddles",
-        role: "booster",
+        profileImage: "avatars/1d9c0858378994d85440c0cd30d6fc57.png",
+        username: "Flamemaster",
+        role: 'the gwa',
         status: "DND",
-        customStatus: ''
+        customStatus: ":yellow_small_man_moving_quickly:"
     },
     "392092706727264256": {
         profileImage: "avatars/6db293b54467f2f5e6126057b6d2c07d.png",
-        username: "rock",
+        username: "Rock",
+        role: "staff",
+        status: "DND",
+        customStatus: 'I Have No Brain And I Must Think'
+    },
+    "532291359428837386": {
+        profileImage: "avatars/161b6aa8c8a0c65d5b519b00e4ca964d.png",
+        username: "𝙛 𝙤 𝙭",
+        role: 'contributor',
+        status: "Idle",
+        customStatus: ""
+    },
+    "333357475644309505": {
+        profileImage: "avatars/97ac8842381fbc231c6fc1533c62cdfe.png",
+        username: "water",
+        role: 'staff training',
+        status: "DND",
+        playing: "Meta Studio (gwa)"
+    },
+    "483213141124055040": {
+        profileImage: "avatars/acee7d0b2e3fd62fa23ed065ae0d14d1.png",
+        username: "Acod",
+        role: 'cool active people',
+        status: 'DND',
+        customStatus: ''
+    },
+    "399889003668832266": {
+        profileImage: "avatars/977ecadd8a973c1fc5c4057753f182b8.png",
+        username: "Catotic neutral",
+        role: 'cool active people',
+        status: 'Idle',
+        customStatus: ''
+    },
+    "186652084433715200": {
+        profileImage: "avatars/efca85b9ba36d9611d1a2c3980204655.png",
+        username: "srotpars",
+        role: 'cool active people',
+        status: 'Idle',
+        customStatus: 'So what the fuck have you done lately?'
+    },
+    "428921414914146304": {
+        profileImage: "avatars/428921414914146304.png",
+        username: "downvoid",
+        role: 'cool active people',
+        status: 'DND',
+        customStatus:''
+    },
+    "777103469982384128": {
+        profileImage: "avatars/d7aaad6b15b576dbecf160a886de45ce.png",
+        username: "meta",
         role: "booster",
         status: "Online",
-        customStatus: ''
+        customStatus: 'I\'ve been infected with covid god damn it'
     },
-    "712738568442871849": {
-        profileImage: "avatars/bef0d98e4bcc9aec4944455efa25b24d.png",
-        username: "unp©gged™",
-        role: "staff-helper",
-        status: "Offline",
-        customStatus: ''
-    },
-    "440441586317393920": {
-        profileImage: "avatars/619a6b95c42ae7e164135069b2bc7b8e.png",
-        username: "ducdat0507",
-        role: "contributor",
+    "631848048359637043": {
+        profileImage: "avatars/74dcba172c5891920fcd7ba6a3169455.png",
+        username: "dreaddit",
+        role: "cool active people",
         status: "Online",
         customStatus: ''
     },
-    "416292383374835723": {
-        profileImage: "avatars/54418eb8941ede85078da6b564295c16.png",
-        username: "CoolRadGamer",
-        role: "contributor",
-        status: "Online",
-        customStatus: "PT is killing DI"
-    }
+    "931295023058792458": {
+        profileImage: "avatars/1aed923da983a04efd381d96817ecfbc.png",
+        username: "bones",
+        role: "cool active people",
+        status: "DND",
+        customStatus: ''
+    },
 };
 
 // Taken from https://codepen.io/jamesrbdev/pen/WxyKyr
@@ -154,10 +126,10 @@ export function getRandomUser() {
 }
 
 export const roles = {
-    'developer': { title: 'DEVELOPER', color: 'rgb(184, 105, 255)' },
-    'staff-admin': { title: 'STAFF-ADMIN', color: 'rgb(255, 59, 125)' },
-    'staff-helper': { title: 'STAFF-HELPER', color: 'rgb(127, 245, 206)'},
-    'booster': {title: 'VOID CRYSTALLINE', color: '#f47fff'},
-    'contributor': {title: 'CONTRIBUTOR', color: 'rgb(131, 126, 252)'},
-    'kuaka-salesman': { title: 'KUAKA SALESMAN', color: 'rgb(189, 17, 255)' },
+    'the gwa': { title: 'THE GWA', color: 'rgb(0, 150, 150)' },
+    'staff': { title: 'STAFF++', color: 'rgb(255, 255, 255)' },
+    'staff training': { title: 'STAFF TRAINING', color: 'rgb(255, 255, 255)'},
+    'contributor': {title: 'CONTRIBUTOR', color: 'rgb(0, 155, 255)'},
+    'booster': {title: 'VERY COOL PEOPLE (BOOSTERS)', color: '#7f087f'},
+    'cool active people': { title: 'COOL ACTIVE PEOPLE', color: '#b7ff00' },
 }
