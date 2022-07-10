@@ -11,13 +11,13 @@
                     <div v-for="user in role" :key="user" :status="heros[user]?heros[user].status:''" class="user" v-on:click="openProfile(user)">
                         <div class="user-inner">
                             <div class="avatar">
-                                <img class="pfp" :src="heros[user].profileImage" :alt="heros[user].username">
+                                <img class="pfp" :src="heros[user]?heros[user].profileImage:''" :alt="heros[user]?heros[user].username:''">
                                 <div class="status"></div>
                             </div>
                             <div class="user-text">
-                                <p class="name" :style="{ color: heros[user].color }">{{ heros[user].username }}</p>
-                                <p class="desc" v-if="heros[user].playing != null">Playing <strong>{{ heros[user].playing }}</strong></p>
-                                <p class="desc" v-else-if="heros[user].customStatus != null">{{ heros[user].customStatus }}</p>
+                                <p class="name" :style="{ color: heros[user]?heros[user].color:"#000000" }">{{ heros[user]?heros[user].username:"" }}</p>
+                                <p class="desc" v-if="heros[user].playing != null">Playing <strong>{{ heros[user]?heros[user].playing:"" }}</strong></p>
+                                <p class="desc" v-else-if="heros[user].customStatus != null">{{ heros[user]?heros[user].customStatus:"" }}</p>
                             </div>
                         </div>
                     </div>
