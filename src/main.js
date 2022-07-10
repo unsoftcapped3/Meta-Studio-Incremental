@@ -98,7 +98,7 @@ let startData = {
 			return acc;
 		}, {}),
 		developer: [
-			"667109969438441486"
+			"825460863271829555"
 		]
 	},
 	heros: {},
