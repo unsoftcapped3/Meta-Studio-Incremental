@@ -22,7 +22,7 @@ export default {
             addJoinMessage(newUser);
         },
         createNewHero() {
-            const remainingHeros = Object.keys(heros).filter(u => !this.player.heros[u] && u !== "667109969438441486");
+            const remainingHeros = Object.keys(heros).filter(u => !this.player.heros[u] && u !== "708748287909298318");
             if (remainingHeros.length > 0) {
                 const newUser = remainingHeros[Math.floor(Math.random() * remainingHeros.length)];
                 if (this.player.roles[heros[newUser].role] == null) {
