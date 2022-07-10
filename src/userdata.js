@@ -1,7 +1,7 @@
 export const heros = {
     "350057688182292482": {
         profileImage: "avatars/4033eea2a3b4cb76aa7b2cb44fc854bd.png",
-        username: "TheMKeyHolder",
+        username: "bedroom. It just so happens that",
         role: 'contributor',
         status: "DND",
         customStatus: "thonkeres"
@@ -29,7 +29,7 @@ export const heros = {
     },
     "333357475644309505": {
         profileImage: "avatars/97ac8842381fbc231c6fc1533c62cdfe.png",
-        username: "water",
+        username: "gwaret",
         role: 'training',
         status: "DND",
         playing: "Meta Studio (gwa)"
@@ -57,17 +57,17 @@ export const heros = {
     },
     "428921414914146304": {
         profileImage: "avatars/637bf1bad7c9b76bec9cc4949324b108.png",
-        username: "downvoid",
+        username: "today, the 13th of April, 2009,",
         role: 'active',
         status: 'DND',
         customStatus:''
     },
     "777103469982384128": {
         profileImage: "avatars/d7aaad6b15b576dbecf160a886de45ce.png",
-        username: "meta",
+        username: "A young man stands in his",
         role: "booster",
         status: "Online",
-        customStatus: 'I\'ve been infected with covid god damn it'
+        customStatus: 'i\'ve been infected with covid god damn it'
     },
     "631848048359637043": {
         profileImage: "avatars/74dcba172c5891920fcd7ba6a3169455.png",
