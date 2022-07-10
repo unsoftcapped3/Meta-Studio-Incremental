@@ -8,7 +8,7 @@
                     <div class="role-header">
                         <p>{{ roles[roleID].title }} &#8212; {{ role.length }}</p>
                     </div>
-                    <div v-for="user in role" :key="user" :status="console.log(heros)" class="user" v-on:click="openProfile(user)">
+                    <div v-for="user in role" :key="user" :status="heros[user]?heros[user].status:''" class="user" v-on:click="openProfile(user)">
                         <div class="user-inner">
                             <div class="avatar">
                                 <img class="pfp" :src="heros[user].profileImage" :alt="heros[user].username">
