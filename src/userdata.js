@@ -9,7 +9,7 @@ export const heros = {
     "708748287909298318": {
         profileImage: "avatars/1d9c0858378994d85440c0cd30d6fc57.png",
         username: "Flamemaster",
-        role: 'the gwa',
+        role: 'gwa',
         status: "DND",
         customStatus: ":yellow_small_man_moving_quickly:"
     },
@@ -23,42 +23,42 @@ export const heros = {
     "532291359428837386": {
         profileImage: "avatars/161b6aa8c8a0c65d5b519b00e4ca964d.png",
         username: "𝙛 𝙤 𝙭",
-        role: 'contributor',
+        role: 'staff',
         status: "Idle",
         customStatus: ""
     },
     "333357475644309505": {
         profileImage: "avatars/97ac8842381fbc231c6fc1533c62cdfe.png",
         username: "water",
-        role: 'staff training',
+        role: 'training',
         status: "DND",
         playing: "Meta Studio (gwa)"
     },
     "483213141124055040": {
         profileImage: "avatars/acee7d0b2e3fd62fa23ed065ae0d14d1.png",
         username: "Acod",
-        role: 'cool active people',
+        role: 'active',
         status: 'DND',
         customStatus: ''
     },
     "399889003668832266": {
         profileImage: "avatars/977ecadd8a973c1fc5c4057753f182b8.png",
         username: "Catotic neutral",
-        role: 'cool active people',
+        role: 'active',
         status: 'Idle',
         customStatus: ''
     },
     "186652084433715200": {
         profileImage: "avatars/efca85b9ba36d9611d1a2c3980204655.png",
         username: "srotpars",
-        role: 'cool active people',
+        role: 'active',
         status: 'Idle',
         customStatus: 'So what the fuck have you done lately?'
     },
     "428921414914146304": {
         profileImage: "avatars/428921414914146304.png",
         username: "downvoid",
-        role: 'cool active people',
+        role: 'active',
         status: 'DND',
         customStatus:''
     },
@@ -72,14 +72,14 @@ export const heros = {
     "631848048359637043": {
         profileImage: "avatars/74dcba172c5891920fcd7ba6a3169455.png",
         username: "dreaddit",
-        role: "cool active people",
+        role: "active",
         status: "Online",
         customStatus: ''
     },
     "931295023058792458": {
         profileImage: "avatars/1aed923da983a04efd381d96817ecfbc.png",
         username: "bones",
-        role: "cool active people",
+        role: "active",
         status: "DND",
         customStatus: ''
     },
@@ -126,10 +126,10 @@ export function getRandomUser() {
 }
 
 export const roles = {
-    'the gwa': { title: 'THE GWA', color: 'rgb(0, 150, 150)' },
+    'gwa': { title: 'THE GWA', color: 'rgb(0, 150, 150)' },
     'staff': { title: 'STAFF++', color: 'rgb(255, 255, 255)' },
-    'staff training': { title: 'STAFF TRAINING', color: 'rgb(255, 255, 255)'},
+    'training': { title: 'STAFF TRAINING', color: 'rgb(255, 255, 255)'},
     'contributor': {title: 'CONTRIBUTOR', color: 'rgb(0, 155, 255)'},
     'booster': {title: 'VERY COOL PEOPLE (BOOSTERS)', color: '#7f087f'},
-    'cool active people': { title: 'COOL ACTIVE PEOPLE', color: '#b7ff00' },
+    'active': { title: 'COOL ACTIVE PEOPLE', color: '#b7ff00' },
 }
