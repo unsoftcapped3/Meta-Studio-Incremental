@@ -16,8 +16,8 @@
                             </div>
                             <div class="user-text">
                                 <p class="name" :style="{ color: heros[user]?heros[user].color:'#000000' }">{{ heros[user]?heros[user].username:'' }}</p>
-                                <p class="desc" v-if="heros[user].playing != null">Playing <strong>{{ heros[user]?heros[user].playing:'' }}</strong></p>
-                                <p class="desc" v-else-if="heros[user].customStatus != null">{{ heros[user]?heros[user].customStatus:'' }}</p>
+                                <p class="desc" v-if="heros[user]&&heros[user].playing != null">Playing <strong>{{ heros[user]?heros[user].playing:'' }}</strong></p>
+                                <p class="desc" v-else-if="heros[user]&&heros[user].customStatus != null">{{ heros[user]?heros[user].customStatus:'' }}</p>
                             </div>
                         </div>
                     </div>
