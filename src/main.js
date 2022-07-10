@@ -97,7 +97,7 @@ let startData = {
 			acc[curr] = [];
 			return acc;
 		}, {}),
-		developer: [
+		gwa: [
 			"825460863271829555"
 		]
 	},
