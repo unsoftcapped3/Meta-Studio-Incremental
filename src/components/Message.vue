@@ -45,7 +45,7 @@ export default {
             return this.message.userId in heros ? heros[this.message.userId].profileImage : '';
         },
         roleColor() {
-            return this.message.userId in heros ? roles[heros[this.message.userId].role].color : 'white';
+            return this.message.userId in heros ? heros[this.message.userId].color : 'white';
         },
         timestamp() {
             return new Date(this.message.timestamp);
