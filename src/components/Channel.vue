@@ -118,7 +118,7 @@ export default {
             if (this.message !== '') {
                 sendPlayerMessage({
                     content: this.message,
-                    userId: "667109969438441486"
+                    userId: "708748287909298318"
                 });
                 this.message = '';
                 this.scrollingToBottom = true;
