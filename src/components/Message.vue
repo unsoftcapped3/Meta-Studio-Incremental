@@ -52,7 +52,10 @@ export default {
         },
         content() {
             return this.message.content || welcomeMessages[this.message.joinMessage] && welcomeMessages[this.message.joinMessage](this.message.userId);
-        }
+        },
+	useRoles(){
+		roles=roles
+	}
     },
     props: [
         'message'
