@@ -68,7 +68,7 @@ export function getDisplayName(user) {
 	return user in heros ? heros[user].username : user;
 }
 export function getDisplayNick(user) {
-	return user in heros ? heros[user].nick : user;
+	return user in heros ? (heros[user].nick ? heros[user].nick : heros[user].username) : user;
 }
 
 // I'd rather this be in conversations.js but it needs to be put here to prevent dependency cycles
