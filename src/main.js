@@ -16,11 +16,11 @@ const storageKey = 'VDI';
 let startData = {
 	categories: {
 		info: {
-			title: '-={info}=-',
+			title: 'info',
 			collapsed: false,
 			channels: {
 				announcements: {
-					title: 'announcements',
+					title: 'announcements-pings-devlogs-and-stuff',
 					type: 'announcement',
 					messages: [],
 					description: "Announcements Here :P"
