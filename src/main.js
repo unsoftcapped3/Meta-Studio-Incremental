@@ -46,25 +46,25 @@ let startData = {
 			}
 		},
 		general: {
-			title: '-={General Chatting}=-',
+			title: "chat 'n stuff",
 			collapsed: false,
 			channels: {
 				general: {
-					title: 'general',
+					title: 'very-cool-hat',
 					type: 'text',
-					description: "This is where you talk about things | Be nice :)",
+					description: "#general but people say hi chat a lot for some reason",
 					ping: false,
 					messages: []
 				}
 			}
 		},
 		voice: {
-			title: '-={vcs}=-',
+			title: 'voice',
 			collapsed: false,
 			channels: {
 				general: {
 					title: 'General',
-					type: 'voice',
+					type: 'voice speak',
 					description: "Place where you can talk and listen to music!",
 					users: [
 						350057688182292482
