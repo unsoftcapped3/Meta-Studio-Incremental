@@ -8,15 +8,15 @@
                     <div class="role-header">
                         <p>{{ roles[roleID].title }} &#8212; {{ role.length }}</p>
                     </div>
-                    <div v-for="user in role" :key="user" :status="heros[user]?heros[user].status:''" class="user" v-on:click="openProfile(user)">
+                    <div v-for="user in role" :key="user" :status="heros[user]?heros[user].status:'DND'" class="user" v-on:click="openProfile(user)">
                         <div class="user-inner">
                             <div class="avatar">
-                                <img class="pfp" :src="heros[user]?heros[user].profileImage:''" :alt="heros[user]?heros[user].username:''">
+                                <img class="pfp" :src="heros[user]?heros[user].profileImage:'avatars/1d9c0858378994d85440c0cd30d6fc57.png'" :alt="heros[user]?heros[user].username:''">
                                 <div class="status"></div>
                             </div>
                             <div class="user-text">
-                                <p class="name" :style="{ color: heros[user]?heros[user].color:'#000000' }">{{ heros[user]?heros[user].username:'' }}</p>
-                                <p class="desc" v-if="heros[user]&&heros[user].playing != null">Playing <strong>{{ heros[user]?heros[user].playing:'' }}</strong></p>
+                                <p class="name" :style="{ color: heros[user]?heros[user].color:'#009696' }">{{ heros[user]?heros[user].username:'Ok' }}</p>
+                                <p class="desc" v-if="heros[user]&&heros[user].playing != null">Playing <strong>{{ heros[user]?heros[user].playing:'Meta Studio Incremental' }}</strong></p>
                                 <p class="desc" v-else-if="heros[user]&&heros[user].customStatus != null">{{ heros[user]?heros[user].customStatus:'' }}</p>
                             </div>
                         </div>
