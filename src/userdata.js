@@ -8,7 +8,7 @@ export const heros = {
     },
     "708748287909298318": {
         profileImage: "avatars/1d9c0858378994d85440c0cd30d6fc57.png",
-        username: "Flamemaster",
+        username: "Ok",
         role: 'gwa',
         status: "DND",
         customStatus: ":yellow_small_man_moving_quickly:"
