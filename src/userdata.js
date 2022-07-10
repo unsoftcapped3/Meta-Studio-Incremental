@@ -56,7 +56,7 @@ export const heros = {
         customStatus: 'So what the fuck have you done lately?'
     },
     "428921414914146304": {
-        profileImage: "avatars/428921414914146304.png",
+        profileImage: "avatars/637bf1bad7c9b76bec9cc4949324b108.png",
         username: "downvoid",
         role: 'active',
         status: 'DND',
