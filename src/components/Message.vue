@@ -45,7 +45,7 @@ export default {
             return this.message.userId in heros ? heros[this.message.userId].profileImage : '';
         },
         roleColor() {
-            return this.message.userId in heros ? heros[this.message.userId].color : 'white';
+            return ((!!roles || !roles) && this.message.userId in heros) ? heros[this.message.userId].color : 'white';
         },
         timestamp() {
             return new Date(this.message.timestamp);
@@ -53,9 +53,6 @@ export default {
         content() {
             return this.message.content || welcomeMessages[this.message.joinMessage] && welcomeMessages[this.message.joinMessage](this.message.userId);
         },
-	useRoles(){
-		roles=roles
-	}
     },
     props: [
         'message'
