@@ -1,6 +1,6 @@
 import nlp from 'compromise';
 import { getWikipedia } from './wikipedia.js';
-import { getDisplayName, startConversation } from './utils.js';
+import { getDisplayName, startConversation, getDisplayNick } from './utils.js';
 
 export function tryStartConversation(category, channel, cleaned) {
 	const nouns = cleaned.nouns().not('(#Plural|#Heated|#Uncountable)').out('array');
