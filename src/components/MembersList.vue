@@ -15,7 +15,7 @@
                                 <div class="status"></div>
                             </div>
                             <div class="user-text">
-                                <p class="name" :style="{ color: roles[roleID].color }">{{ heros[user].username }}</p>
+                                <p class="name" :style="{ color: heros[user].color }">{{ heros[user].username }}</p>
                                 <p class="desc" v-if="heros[user].playing != null">Playing <strong>{{ heros[user].playing }}</strong></p>
                                 <p class="desc" v-else-if="heros[user].customStatus != null">{{ heros[user].customStatus }}</p>
                             </div>
