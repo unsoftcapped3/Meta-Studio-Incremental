@@ -67,6 +67,9 @@ export const defaultMessageDelay = 2; // How long it takes for an NPC to "read" 
 export function getDisplayName(user) {
 	return user in heros ? heros[user].username : user;
 }
+export function getDisplayNick(user) {
+	return user in heros ? heros[user].nick : user;
+}
 
 // I'd rather this be in conversations.js but it needs to be put here to prevent dependency cycles
 export function startConversation(category, channel, convoId, conversation, extra) {
