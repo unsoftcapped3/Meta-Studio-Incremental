@@ -46,7 +46,7 @@ export const conversations = [
 	},
 	{
 		messages: [
-			{ type: 'user', user: 0, content() { return `oh man me and ${getDisplayName(this.users[1])} were just discussing ${this.noun}. Right @${getDisplayName(this.users[1])}?` } },
+			{ type: 'user', user: 0, content() { return `oh man me and ${getDisplayNick(this.users[1])} were just discussing ${this.noun}. Right @${getDisplayName(this.users[1])}?` } },
 			{ type: 'user', user: 1, content() { return `who pinged me?` }, delay: 20 },
 			{ type: 'user', user: 0, content() { return `me. Do you remember us talking about ${this.noun}?` } },
 			{ type: 'user', user: 1, content() { return `no lol` } }
