@@ -100,7 +100,10 @@ export const conversations = [
 	'"Almost never" is an interesting concept',
 	'NaN is Not a Number interesting',
 	'Saying you care a little still means you do care',
-	'Where is Void?'
+	'Where is Void?',
+	'gwa',
+	'hi hat',
+	'h',
 ].reduce((acc, curr, index) => {
 	acc['nothing' + index] = typeof curr === 'string' ? singleMessage(curr) : curr;
 	return acc;
