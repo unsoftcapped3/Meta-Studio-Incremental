@@ -1,34 +1,34 @@
 export const heros = {
     "350057688182292482": {
         profileImage: "avatars/4033eea2a3b4cb76aa7b2cb44fc854bd.png",
-        username: "bedroom. It just so happens that",
+        username: "arkhaic VI",
         nick: "mkey",
         role: 'contributor',
         status: "DND",
-        customStatus: "thonkeres",
+        //customStatus: "thonkeres",
         color: "#ffc000"
     },
     "708748287909298318": {
         profileImage: "avatars/1d9c0858378994d85440c0cd30d6fc57.png",
-        username: "Ok",
+        username: "negligible fish",
         nick: "flame",
         role: 'gwa',
         status: "DND",
-        customStatus: ":yellow_small_man_moving_quickly:",
+        //customStatus: ":yellow_small_man_moving_quickly:",
         color: "#009696"
     },
     "392092706727264256": {
         profileImage: "avatars/6db293b54467f2f5e6126057b6d2c07d.png",
-        username: "Rock",
+        username: "rock",
         nick: "rock",
         role: "staff",
         status: "DND",
-        customStatus: 'I Have No Brain And I Must Think',
+        //customStatus: 'I Have No Brain And I Must Think',
         color: "#008282"
     },
     "532291359428837386": {
         profileImage: "avatars/161b6aa8c8a0c65d5b519b00e4ca964d.png",
-        username: "𝙛 𝙤 𝙭",
+        username: "fox",
         nick: "fox",
         role: 'staff',
         status: "Idle",
@@ -37,16 +37,16 @@ export const heros = {
     },
     "333357475644309505": {
         profileImage: "avatars/97ac8842381fbc231c6fc1533c62cdfe.png",
-        username: "gwaret",
+        username: "water",
         nick: "water",
         role: 'training',
-        status: "DND",
-        playing: "Meta Studio (gwa)",
+        status: "Online",
+        //playing: "Meta Studio (gwa)",
         color: "#ffffff"
     },
     "483213141124055040": {
         profileImage: "avatars/acee7d0b2e3fd62fa23ed065ae0d14d1.png",
-        username: "Acod",
+        username: "raccoongirl",
         role: 'active',
         status: 'DND',
         customStatus: '',
@@ -54,7 +54,7 @@ export const heros = {
     },
     "399889003668832266": {
         profileImage: "avatars/977ecadd8a973c1fc5c4057753f182b8.png",
-        username: "Catotic neutral",
+        username: "Drunk",
         nick: "Ink",
         role: 'active',
         status: 'Idle',
@@ -63,33 +63,31 @@ export const heros = {
     },
     "186652084433715200": {
         profileImage: "avatars/efca85b9ba36d9611d1a2c3980204655.png",
-        username: "srotpars",
+        username: 'dr. lucas "fuck" srœtpars',
         role: 'active',
         status: 'Idle',
-        customStatus: 'So what the fuck have you done lately?',
         color: "#196296"
     },
     "428921414914146304": {
         profileImage: "avatars/637bf1bad7c9b76bec9cc4949324b108.png",
-        username: "today, the 13th of April, 2009,",
+        username: "downvoid",
         nick: "downvoid",
-        role: 'active',
+        role: 'contributor',
         status: 'DND',
         customStatus:'',
         color: "#31da6d"
     },
     "777103469982384128": {
         profileImage: "avatars/d7aaad6b15b576dbecf160a886de45ce.png",
-        username: "A young man stands in his",
+        username: "plont | 🍰",
         nick: "meta",
-        role: "booster",
+        role: "active",
         status: "Online",
-        customStatus: 'i\'ve been infected with covid god damn it',
         color: "#7f087f"
     },
     "631848048359637043": {
         profileImage: "avatars/74dcba172c5891920fcd7ba6a3169455.png",
-        username: "dreaddit",
+        username: "arkhaic",
         nick: "arkhaic",
         role: "active",
         status: "Online",
@@ -149,7 +147,7 @@ export function getRandomUser() {
 export const roles = {
     'gwa': { title: 'THE GWA', color: 'rgb(0, 150, 150)' },
     'staff': { title: 'STAFF++', color: 'rgb(255, 255, 255)' },
-    'training': { title: 'STAFF TRAINING', color: 'rgb(255, 255, 255)'},
+    'training': { title: 'STAFF', color: 'rgb(255, 255, 255)'},
     'contributor': {title: 'CONTRIBUTOR', color: 'rgb(0, 155, 255)'},
     'booster': {title: 'VERY COOL PEOPLE (BOOSTERS)', color: '#7f087f'},
     'active': { title: 'COOL ACTIVE PEOPLE', color: '#b7ff00' },
