@@ -27,13 +27,13 @@ export const heros = {
         color: "#008282"
     },
     "532291359428837386": {
-        profileImage: "avatars/161b6aa8c8a0c65d5b519b00e4ca964d.png",
+        profileImage: "avatars/2f018fa659985e0fcf82edd48c099b10.png",
         username: "fox",
         nick: "fox",
         role: 'staff',
         status: "Idle",
         customStatus: "",
-        color: "#030303"
+        color: "#b41313"
     },
     "333357475644309505": {
         profileImage: "avatars/97ac8842381fbc231c6fc1533c62cdfe.png",
@@ -45,31 +45,31 @@ export const heros = {
         color: "#ffffff"
     },
     "483213141124055040": {
-        profileImage: "avatars/acee7d0b2e3fd62fa23ed065ae0d14d1.png",
+        profileImage: "avatars/09fb65643eaab0024eba7e0810d5b6cf.png",
         username: "raccoongirl",
         role: 'active',
         status: 'DND',
         customStatus: '',
-        color: "#196296"
+        color: "#00ffac"
     },
     "399889003668832266": {
-        profileImage: "avatars/977ecadd8a973c1fc5c4057753f182b8.png",
+        profileImage: "avatars/abf2d6766b13eb34a65a2550a34a0649.png",
         username: "Drunk",
         nick: "Ink",
         role: 'active',
         status: 'Idle',
         customStatus: '',
-        color: "#196296"
+        color: "#00d2ff"
     },
     "186652084433715200": {
-        profileImage: "avatars/efca85b9ba36d9611d1a2c3980204655.png",
+        profileImage: "avatars/48df5bfe5b6d452b8a79f56558eeab51.png",
         username: 'dr. lucas "fuck" srœtpars',
         role: 'active',
         status: 'Idle',
         color: "#196296"
     },
     "428921414914146304": {
-        profileImage: "avatars/637bf1bad7c9b76bec9cc4949324b108.png",
+        profileImage: "avatars/4a26fa4f2f209f21629fc1010e88a197.png",
         username: "downvoid",
         nick: "downvoid",
         role: 'contributor',
@@ -86,7 +86,7 @@ export const heros = {
         color: "#7f087f"
     },
     "631848048359637043": {
-        profileImage: "avatars/74dcba172c5891920fcd7ba6a3169455.png",
+        profileImage: "avatars/a1e6692cdbeceb1c69b06f2a00e59e11.png",
         username: "arkhaic",
         nick: "arkhaic",
         role: "active",
@@ -95,7 +95,7 @@ export const heros = {
         color: "#00ffac"
     },
     "931295023058792458": {
-        profileImage: "avatars/1aed923da983a04efd381d96817ecfbc.png",
+        profileImage: "avatars/02e330f2f173a5aabdc85ba79822a7f5.png",
         username: "bones",
         role: "active",
         status: "DND",
